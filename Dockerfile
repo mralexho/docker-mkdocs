@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM alpine:3.12.0
 
 ENV MKDOCS_VERSION=1.1.2 \
     DOCS_DIRECTORY='/mkdocs' \
